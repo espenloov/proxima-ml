@@ -1,5 +1,5 @@
-use crate::validate_lengths;
 use crate::Similarity;
+use crate::validate_lengths;
 use num_traits::Float;
 use std::iter::Sum;
 
