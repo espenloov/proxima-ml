@@ -1,3 +1,4 @@
+mod chebyshev;
 mod cosine;
 mod dot;
 mod euclidean;
@@ -7,6 +8,7 @@ mod traits;
 mod utils;
 mod validation;
 
+pub use chebyshev::Chebyshev;
 pub use cosine::Cosine;
 pub use dot::Dot;
 pub use euclidean::{Euclidean, SqEuclidean};
